@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <tr>
     <header>
         <nav>
             <ul>
@@ -19,34 +17,38 @@
             </ul>
         </nav>
     </header>
-        </tr>
     <main>
         <section id="home">
             <h1>Welcome to Hair Oil Website</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
             <button>Learn More</button>
+            <img src="images/hair-oil.jpg" alt="Hair Oil Image" class="hero-image">
         </section>
         <section id="about">
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+            <img src="images/about-us.jpg" alt="About Us Image" class="about-image">
         </section>
         <section id="products">
             <h1>Our Products</h1>
             <ul>
                 <li>
-                    <img src="product1.jpg" alt="Product 1">
+                    <img src="images/product1.jpg" alt="Product 1">
                     <h2>Product 1</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Buy Now</button>
                 </li>
                 <li>
-                    <img src="product2.jpg" alt="Product 2">
+                    <img src="images/product2.jpg" alt="Product 2">
                     <h2>Product 2</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Buy Now</button>
                 </li>
                 <li>
-                    <img src="product3.jpg" alt="Product 3">
+                    <img src="images/product3.jpg" alt="Product 3">
                     <h2>Product 3</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <button>Buy Now</button>
                 </li>
             </ul>
         </section>
@@ -64,5 +66,6 @@
     <footer>
         <p>&copy; 2023 Hair Oil Website</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
