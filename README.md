@@ -1,71 +1,122 @@
+<!-- Index.html (Home Page) -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hair Oil Website</title>
+    <title>Keshratan - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <h1>Welcome to Hair Oil Website</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-            <button>Learn More</button>
-            <img src="images/hair-oil.jpg" alt="Hair Oil Image" class="hero-image">
-        </section>
-        <section id="about">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-            <img src="images/about-us.jpg" alt="About Us Image" class="about-image">
-        </section>
-        <section id="products">
-            <h1>Our Products</h1>
-            <ul>
-                <li>
-                    <img src="images/product1.jpg" alt="Product 1">
-                    <h2>Product 1</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button>Buy Now</button>
-                </li>
-                <li>
-                    <img src="images/product2.jpg" alt="Product 2">
-                    <h2>Product 2</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button>Buy Now</button>
-                </li>
-                <li>
-                    <img src="images/product3.jpg" alt="Product 3">
-                    <h2>Product 3</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button>Buy Now</button>
-                </li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h1>Get in Touch</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button>Send</button>
-            </form>
-        </section>
+        <h1>Welcome to Keshratan</h1>
+        <p>Keshratan is a leading brand in hair care, offering a wide range of products for all your hair needs.</p>
+        <button>Explore Our Products</button>
     </main>
     <footer>
-        <p>&copy; 2023 Hair Oil Website</p>
+        <p>&copy; 2023 Keshratan</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
+
+<!-- About.html (About Page) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshratan - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>About Keshratan</h1>
+        <p>Keshratan is a brand that is passionate about providing high-quality hair care products to our customers. Our team of experts has years of experience in the industry and is dedicated to creating products that are both effective and gentle on your hair.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Keshratan</p>
+    </footer>
+</body>
+</html>
+
+<!-- Products.html (Products Page) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshratan - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Products</h1>
+        <ul>
+            <li>
+                <img src="images/product1.jpg" alt="Product 1">
+                <h2>Shampoo</h2>
+                <p>Our gentle shampoo is formulated to clean and nourish your hair.</p>
+                <button>Buy Now</button>
+            </li>
+            <li>
+                <img src="images/product2.jpg" alt="Product 2">
+                <h2>Conditioner</h2>
+                <p>Our moisturizing conditioner helps to detangle and soften your hair.</p>
+                <button>Buy Now</button>
+            </li>
+            <li>
+                <img src="images/product3.jpg" alt="Product 3">
+                <h2>Hair Oil</h2>
+                <p>Our hair oil is rich in nutrients and helps to nourish and protect your hair.</p>
+                <button>Buy Now</button>
+            </li>
+            <!-- Add more products here -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2023 Keshratan</p>
+    </footer>
+</body>
+</html>
+
+<!-- Contact.html (Contact Page) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshratan
