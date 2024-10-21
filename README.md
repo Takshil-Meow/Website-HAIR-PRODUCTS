@@ -86,7 +86,7 @@
         <h1>Our Products</h1>
         <ul>
             <li>
-                <img src="images/product1.jpg" alt="Product 1">
+                <img src="" alt="Product 1">
                 <h2>Shampoo</h2>
                 <p>Our gentle shampoo is formulated to clean and nourish your hair.</p>
                 <button>Buy Now</button>
