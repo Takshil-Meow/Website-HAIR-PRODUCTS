@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <table>
+        <tr>
     <header>
         <nav>
             <ul>
@@ -17,6 +19,7 @@
             </ul>
         </nav>
     </header>
+        </tr>
     <main>
         <section id="home">
             <h1>Welcome to Hair Oil Website</h1>
