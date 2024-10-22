@@ -27,13 +27,13 @@
             <h2>Our Products</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <img src="[https://via.placeholder.com/300x200?text=Coconut+Hair+Oil" alt="Coconut Hair Oil](https://www.soulflower.in/cdn/shop/files/coconut-oil_a165e46f-be93-48e0-a51a-76809bfd0e98.jpg?v=1717416184&width=1024)">
+                    <img src="https://www.pepperhub.in/wp-content/uploads/2023/01/Coconut-oil-.5L.webp">
                     <h3>Coconut Hair Oil</h3>
                     <p>Nourishes and moisturizes dry hair.</p>
                     <button>Buy Now</button>
                 </div>
                 <div class="product-card">
-                    <img src="https://bajajconsumercare.com/assets/Webp/almonds-drops-overview/Bajaj%20Almond%20Drops%20Hair%20Oil.webp">
+                    <img src="https://latourangelle.com/cdn/shop/articles/32_1200x1200.jpg?v=1647297916">
                     <h3>Argan Hair Oil</h3>
                     <p>Hydrates and protects damaged hair.</p>
                     <button>Buy Now</button>
@@ -45,6 +45,24 @@
                     <button>Buy Now</button>
                 </div>
             </div>
+            <div class="product-card">
+    <img src="https://via.placeholder.com/300x200?text=Shampoo+1" alt="Shampoo 1">
+    <h3>Shampoo 1</h3>
+    <p>Perfect for all hair types.</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-card">
+    <img src="https://via.placeholder.com/300x200?text=Shampoo+2" alt="Shampoo 2">
+    <h3>Shampoo 2</h3>
+    <p>Deep cleansing formula.</p>
+    <button>Buy Now</button>
+</div>
+<div class="product-card">
+    <img src="https://via.placeholder.com/300x200?text=Shampoo+3" alt="Shampoo 3">
+    <h3>Shampoo 3</h3>
+    <p>Moisturizing and nourishing.</p>
+    <button>Buy Now</button>
+</div>
         </section>
         <section id="about">
             <h2>About Us</h2>
