@@ -59,9 +59,10 @@
     <button>Buy Now</button>
 </div>
 <div class="product-card">
-    <img src="">
-    <h3>Shampoo 3</h3>
+    <img src="https://vijohnkart.com/cdn/shop/files/8900021669816_4_800x.jpg?v=1712927505">
+    <h3>Onion Shampoo</h3>
     <p>Moisturizing and nourishing.</p>
+    <p>Dandruff Free Hair.</p>
     <button>Buy Now</button>
 </div>
         </section>
