@@ -1,72 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-header nav ul li {
-    margin-right: 20px;
-}
-
-header nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em;
-}
-
-section {
-    background-color: #f7f7f7;
-    padding: 2em;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    color: #333;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-}
-
-.product-card {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.product-card img {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-}
-
-.product-card h3 {
-    margin-top: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeshRatan - Hair Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to KeshRatan</h1>
+            <p>Your destination for natural hair care products.</p>
+            <button onclick="document.getElementById('products').scrollIntoView();">Explore Our Products</button>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Coconut+Hair+Oil" alt="Coconut Hair Oil">
+                    <h3>Coconut Hair Oil</h3>
+                    <p>Nourishes and moisturizes dry hair.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="[https://via.placeholder.com/300x200?text=Argan+Hair+Oil](https://www.budsandberries.in/cdn/shop/files/almond-hair-oil-for-long-lasting-conditioining-orno-mineral-oil-no-silicone-100-ml-budsandberries-1_540x.jpg?v=1703135605)" alt="Argan Hair Oil">
+                    <h3>Argan Hair Oil</h3>
+                    <p>Hydrates and protects damaged hair.</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQB0oJz5jJiPJQzYncs8EJWDC6n8KYgbJsqrh1VROo0VN7aOGeispfF7QjyDOUYD1lNGhTzlYnx0vUIAu9IYQZN8HIiC8ECMp7jL5LianEzqKdcJd9eSZdYHw" alt="Tea Tree Hair Oil">
+                    <h3>Tea Tree Hair Oil</h3>
+                    <p>Controls dandruff and itchiness.</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Keshratan is dedicated to providing natural hair care products that nourish and protect your hair. Our products are made with high-quality ingredients and are free from harsh chemicals.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us:9377677836</h2>
+            <p>Get in touch with us to learn more about our products or to place an order.</p>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Keshratan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
