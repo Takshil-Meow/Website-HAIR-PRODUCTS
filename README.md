@@ -27,7 +27,7 @@
             <h2>Our Products</h2>
             <div class="product-grid">
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/300x200?text=Coconut+Hair+Oil" alt="Coconut Hair Oil">
+                    <img src="[https://via.placeholder.com/300x200?text=Coconut+Hair+Oil" alt="Coconut Hair Oil](https://www.soulflower.in/cdn/shop/files/coconut-oil_a165e46f-be93-48e0-a51a-76809bfd0e98.jpg?v=1717416184&width=1024)">
                     <h3>Coconut Hair Oil</h3>
                     <p>Nourishes and moisturizes dry hair.</p>
                     <button>Buy Now</button>
