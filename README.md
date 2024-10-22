@@ -33,7 +33,7 @@
                     <button>Buy Now</button>
                 </div>
                 <div class="product-card">
-                    <img src="[https://via.placeholder.com/300x200?text=Argan+Hair+Oil](https://www.budsandberries.in/cdn/shop/files/almond-hair-oil-for-long-lasting-conditioining-orno-mineral-oil-no-silicone-100-ml-budsandberries-1_540x.jpg?v=1703135605)" alt="Argan Hair Oil">
+                    <img src="https://bajajconsumercare.com/assets/Webp/almonds-drops-overview/Bajaj%20Almond%20Drops%20Hair%20Oil.webp">
                     <h3>Argan Hair Oil</h3>
                     <p>Hydrates and protects damaged hair.</p>
                     <button>Buy Now</button>
