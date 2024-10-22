@@ -1,122 +1,72 @@
-<!-- Index.html (Home Page) -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshratan - Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Welcome to Keshratan</h1>
-        <p>Keshratan is a leading brand in hair care, offering a wide range of products for all your hair needs.</p>
-        <button>Explore Our Products</button>
-    </main>
-    <footer>
-        <p>&copy; 2023 Keshratan</p>
-    </footer>
-</body>
-</html>
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
 
-<!-- About.html (About Page) -->
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshratan - About</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>About Keshratan</h1>
-        <p>Keshratan is a brand that is passionate about providing high-quality hair care products to our customers. Our team of experts has years of experience in the industry and is dedicated to creating products that are both effective and gentle on your hair.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 Keshratan</p>
-    </footer>
-</body>
-</html>
+header nav ul li {
+    margin-right: 20px;
+}
 
-<!-- Products.html (Products Page) -->
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshratan - Products</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Our Products</h1>
-        <ul>
-            <li>
-                <img src="" alt="Product 1">
-                <h2>Shampoo</h2>
-                <p>Our gentle shampoo is formulated to clean and nourish your hair.</p>
-                <button>Buy Now</button>
-            </li>
-            <li>
-                <img src="images/product2.jpg" alt="Product 2">
-                <h2>Conditioner</h2>
-                <p>Our moisturizing conditioner helps to detangle and soften your hair.</p>
-                <button>Buy Now</button>
-            </li>
-            <li>
-                <img src="images/product3.jpg" alt="Product 3">
-                <h2>Hair Oil</h2>
-                <p>Our hair oil is rich in nutrients and helps to nourish and protect your hair.</p>
-                <button>Buy Now</button>
-            </li>
-            <!-- Add more products here -->
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2023 Keshratan</p>
-    </footer>
-</body>
-</html>
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
 
-<!-- Contact.html (Contact Page) -->
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshratan
+h1, h2 {
+    color: #333;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card h3 {
+    margin-top: 0;
+}
