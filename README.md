@@ -39,26 +39,27 @@
                     <button>Buy Now</button>
                 </div>
                 <div class="product-card">
-                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQB0oJz5jJiPJQzYncs8EJWDC6n8KYgbJsqrh1VROo0VN7aOGeispfF7QjyDOUYD1lNGhTzlYnx0vUIAu9IYQZN8HIiC8ECMp7jL5LianEzqKdcJd9eSZdYHw" alt="Tea Tree Hair Oil">
+                    <img src="https://passionindulge.com/cdn/shop/files/Tea_Tree_ESSENTIAL_OIL_95146d40-8bef-4ebd-944b-295c32ef9344.jpg?v=1721891953&width=1946">
                     <h3>Tea Tree Hair Oil</h3>
                     <p>Controls dandruff and itchiness.</p>
                     <button>Buy Now</button>
                 </div>
             </div>
             <div class="product-card">
-    <img src="https://via.placeholder.com/300x200?text=Shampoo+1" alt="Shampoo 1">
-    <h3>Shampoo 1</h3>
+    <img src="https://cdn.shopify.com/s/files/1/0556/0385/5430/files/Shampoo-Coconut_Water___Aloevera-A__content_01.jpg">
+    <h3>Aloe-vera</h3>
     <p>Perfect for all hair types.</p>
     <button>Buy Now</button>
 </div>
 <div class="product-card">
-    <img src="https://via.placeholder.com/300x200?text=Shampoo+2" alt="Shampoo 2">
-    <h3>Shampoo 2</h3>
+    <img src="https://images.jdmagicbox.com/quickquotes/images_main/indrani-aritha-amla-shikakai-shampoo-2022839706-9w5wrwme.jpg">
+    <h3>Aritha Sampoo</h3>
     <p>Deep cleansing formula.</p>
+    <p>Hair Growth increase.</p>
     <button>Buy Now</button>
 </div>
 <div class="product-card">
-    <img src="https://via.placeholder.com/300x200?text=Shampoo+3" alt="Shampoo 3">
+    <img src="">
     <h3>Shampoo 3</h3>
     <p>Moisturizing and nourishing.</p>
     <button>Buy Now</button>
